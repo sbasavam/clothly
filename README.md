@@ -44,7 +44,7 @@ Clothly is a responsive and modern web application that simplifies laundry servi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/sbasavam/clothly.git
+git clone https://github.com/sbasavam/clothly-front-end.git
 cd clothly
 ```
 
