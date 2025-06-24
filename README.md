@@ -73,7 +73,7 @@ The app will be available at `http://localhost:5173`.
 - Store them in `.env.local`:
 
 ```
-VITE_SUPABASE_URL=https://clothly-zeta.vercel.app/
+VITE_SUPABASE_URL=https://clothly-vert.vercel.app
 ```
 
 Use Supabase Auth and Supabase JS Client for real-time updates and user handling.
