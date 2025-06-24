@@ -6,6 +6,7 @@ import TrackOrder from '../pages/customer/TrackOrder';
 import Profile from '../pages/customer/Profile';
 import Addresses from '../pages/customer/Addresses';
 import LoginRegister from '../pages/customer/LoginRegister';
+import AllOrder from '../pages/customer/AllOrders';
 import React from 'react';
 
 const CustomerRoutes = ({ setIsLoggedIn }) => (
@@ -13,6 +14,7 @@ const CustomerRoutes = ({ setIsLoggedIn }) => (
     <Route path="dashboard" element={<Dashboard />} />
     <Route path="book" element={<BookService />} />
     <Route path="order/:id" element={<OrderDetails />} />
+    <Route path="order" element={<AllOrder />} />
     <Route path="track" element={<TrackOrder />} />
     <Route path="profile" element={<Profile />} />
     <Route path="addresses" element={<Addresses />} />
